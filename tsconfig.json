@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+      "incremental": true,
+      "target": "es2017",
+      "module": "commonjs",
+      "lib": [
+        "es2017"
+      ],
+      "outDir": "./build",
+      "rootDir": "./",
+      "strict": true,
+      "noImplicitAny": false,
+      "moduleResolution": "node",
+      "esModuleInterop": true,
+      "strictNullChecks": false,
+      "typeRoots": [
+        "node_modules/@types"
+      ],
+      "types": [
+        "jasmine",
+        "node"
+      ],
+      "resolveJsonModule": true,
+    },
+    "include": [
+      "src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "plugin.ts"
+      ]
+    }
